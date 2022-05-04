@@ -1,0 +1,13 @@
+<!doctype html>
+{% block header %}
+  <h1>{% block title %}predict{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <input type="submit" value="predict">
+    <a>{{results}}</a>
+  </form>
+  <p>{{result}}<p>
+
+{% endblock %}
